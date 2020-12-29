@@ -395,7 +395,7 @@ window.addEventListener("message", function (e) {
 				if (jwplayer().getState() == "playing") {
 					localStorage.setItem(video_id, jwplayer().getPosition());
 				}
-			}, 5000);
+			}, 90000);
 		}
 	});
 });
